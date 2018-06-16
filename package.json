@@ -1,0 +1,22 @@
+{
+  "name": "mongo-db-scraper",
+  "version": "1.0.0",
+  "description": "A New York Times scraper app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Garth Smith",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
